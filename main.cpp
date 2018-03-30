@@ -1,4 +1,4 @@
-//Author:
+//Author:Saleh Alshaikh 
 #include <iostream>
 #include <fstream>
 
@@ -13,6 +13,20 @@ int main()
   //lower case) should be assigned to first and the last letter (again in
   //either case) from the file to the variable last
 
+
+while(!(in.eof()))
+ {
+   if(first == ' ')
+      {
+           in>>first;
+                      }
+                      in>>current;
+                          if((current >= 'a' && current <= 'z') || (current >= 'A' && current <= 'Z'))
+                              {
+                                  last = current;
+                                      }
+
+                                        }
 
 
   //Then, finally, this displays the censored version:
